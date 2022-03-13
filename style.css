@@ -1,0 +1,33 @@
+body{
+	font-family: 'montserrat';
+}
+.header{
+	background:url(https://images.pexels.com/photos/572056/pexels-photo-572056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) rgba(0,0,0,0.6);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-blend-mode: multiply;
+
+}
+#my-box{
+	background:#ccc;
+	display: inline-block;
+	padding: 30px;
+	opacity: 0.7;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+.contact{
+	background:url('https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') rgba(0,0,0,0.2);
+	background-blend-mode: multiply;	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+/*	background-blend-mode: multiply;*/
+}
